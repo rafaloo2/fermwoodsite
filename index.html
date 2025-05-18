@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Fermwood – Meble z duszą</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f4f1ed; }
+    header { background: url('images/tlo.jpg') center/cover no-repeat; color: white; height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: rgba(0,0,0,0.6); }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    .flags { margin-left: auto; }
+    .section { padding: 2rem; }
+    .steps { display: flex; justify-content: space-around; flex-wrap: wrap; }
+    .step { background: #fff; padding: 1rem; margin: 1rem; border-radius: 10px; box-shadow: 0 0 10px #ccc; text-align: center; flex: 1 1 200px; cursor: pointer; }
+    .step img { width: 50px; margin-bottom: 1rem; }
+    .gallery img { width: 30%; margin: 1%; border-radius: 10px; box-shadow: 0 0 5px #aaa; }
+    footer { text-align: center; padding: 2rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <img src="logo.png" alt="Fermwood" height="40">
+  <a href="#onas">O nas</a>
+  <a href="#oferta">Oferta</a>
+  <a href="#jak">Jak zamówić</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#kontakt">Kontakt</a>
+  <div class="flags">
+    <a href="#">PL</a> | <a href="#">DE</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Fermwood – Meble z duszą</h1>
+</header>
+
+<section class="section" id="onas">
+  <h2>O nas</h2>
+  <p>Rodzinna stolarnia ze Szczecina. Tworzymy kuchnie, szafy i stoły z litego drewna oraz ekologicznych materiałów.</p>
+</section>
+
+<section class="section" id="oferta">
+  <h2>Oferta</h2>
+  <ul>
+    <li>Kuchnie i szafy na wymiar</li>
+    <li>Stoły z litego drewna</li>
+    <li>Fronty fornirowane, lakierowane, linoleum</li>
+    <li>Blaty HPL, stalowe, kamienne</li>
+  </ul>
+</section>
+
+<section class="section" id="jak">
+  <h2>Jak zamówić</h2>
+  <div class="steps">
+    <a class="step" href="jak/pomiar.html"><img src="icons/measure.png"><h3>Pomiar</h3></a>
+    <a class="step" href="jak/projekt.html"><img src="icons/design.png"><h3>Projekt</h3></a>
+    <a class="step" href="jak/wycena.html"><img src="icons/quote.png"><h3>Wycena</h3></a>
+    <a class="step" href="jak/realizacja.html"><img src="icons/build.png"><h3>Realizacja</h3></a>
+  </div>
+</section>
+
+<section class="section" id="galeria">
+  <h2>Galeria</h2>
+  <div class="gallery">
+    <img src="images/gallery/foto1.jpg"><img src="images/gallery/foto2.jpg"><img src="images/gallery/foto3.jpg"><img src="images/gallery/foto4.jpg"><img src="images/gallery/foto5.jpg"><img src="images/gallery/foto6.jpg">
+  </div>
+</section>
+
+<section class="section" id="kontakt">
+  <h2>Kontakt</h2>
+  <p>Napisz do nas: <a href="mailto:fermwood.szczecin@gmail.com">fermwood.szczecin@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; Fermwood 2025
+</footer>
+
+</body>
+</html>
